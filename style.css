@@ -1,0 +1,71 @@
+body {
+    
+    color: azure;
+}
+
+h1 {
+    font-size: 55px;
+    font-family: "Roboto", sans-serif;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.container {
+    background: url(images/марс.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0 10px;
+    height: 100vh;
+    object-fit: cover;
+    background-size: 100%;
+}
+
+.label {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 0 0 0 15px;
+}
+
+.option {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.input {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.container-img {
+    background: fixed;
+    height: 216px;
+    width: 324px;
+}
+
+.photos {
+    padding: 10px 30px 0 0ss;
+}
+
+.contant-wrapper {
+    max-width: 800px;
+    background-color: rgba(46, 1, 1, 0.7);
+    padding: 50px;
+    border-radius: 12px;
+}
+
+.photos-block {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photos-block__item {
+    width: 500px;
+}
